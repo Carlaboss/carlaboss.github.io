@@ -1,0 +1,186 @@
+body {
+  font-family: "sans-serif", sans-serif, sans-serif;
+}
+
+
+
+header {
+  background: linear-gradient(#C5A4FC, #ffffff);
+  padding: 160px;
+  text-align: center;
+  color: white;
+}
+
+
+#header__title {
+  font-weight: bold;
+  font-size: 100px;
+  font-family: sans-serif;
+}
+
+
+#main__section-first {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ gap: 50px;
+ padding: 64px 160px;
+}
+
+.main__section__article {
+  display: flex;
+  align-items: center;
+}
+
+.main__section__article__content{
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+}
+
+.reverse {
+  flex-direction:row-reverse;
+}
+
+
+
+
+.main__section__article h2 {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.main__section__article p {
+ text-align: left;
+ font-size: 20px;
+}
+
+
+.main__section__article img {
+width: 400px;
+height: 500px;
+}
+
+footer {
+ background: #C5A4FC; 
+ color: white;
+ text-align: center;
+ padding: 16px;
+ position: sticky;
+ bottom: 0;
+}
+
+.footer__text {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+
+
+@media (min-width: 0px) and (max-width: 480px) {
+.main__section__article {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__section__article img {
+width: 100px;
+height: 170px;
+}
+
+header{
+  padding: 0px;
+}
+
+#main__section-first {
+ padding: 64px 60px;
+}
+
+.main__section__article__content{
+ padding-bottom: 20px;
+}
+
+#header__title {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: sans-serif;
+}
+
+.main__section__article h2 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.main__section__article p {
+ text-align:center;
+ font-size: 15px;
+}
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+.main__section__article {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__section__article img {
+width: 100px;
+height: 170px;
+}
+
+header{
+  padding: 0px;
+ 
+}
+
+
+#main__section-first {
+ padding: 64px 60px;
+}
+
+.main__section__article__content{
+padding-bottom: 30px;
+}
+
+#header__title {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: sans-serif;
+ 
+}
+
+.main__section__article h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.main__section__article p {
+ text-align:center;
+ font-size: 15px;
+
+}
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+.main__section__article img {
+width: 720px;
+height: 400px;
+}
+
+}
+
+
+
